@@ -14,7 +14,7 @@ const HomeCom4_text = ({setOpen}) => {
             <li><div><TickBullet/></div>  Manage paid requests</li>
             <li><div><TickBullet/></div>  Easy to remember link to add into your social media bio</li>
         </ul>
-        <button className='button-cal' onClick={()=>setOpen(true)}>Calculate your earning</button>
+        <button className='button-cal' type='button' onClick={()=>setOpen(true)}>Calculate your earning</button>
     </article>
     )
 }

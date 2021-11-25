@@ -36,7 +36,7 @@ const CalculateEarning = ({ setOpen }) => {
                     <p>You can earn</p>
                     <p className='earning-amount'>$ <span>{totalEarning.toFixed(2)}</span> per day</p>
                 </div>
-                <button onClick={() => setOpen(false)}>Hide Calculator</button>
+                <button type='button' onClick={() => setOpen(false)}>Hide Calculator</button>
             </div>
         </article>
     )

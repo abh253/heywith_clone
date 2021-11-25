@@ -484,6 +484,16 @@ a:hover{
   font-size: 1.25rem;
 }
 
+.home-com-6{
+  margin:7rem;
+  height: 40vw;
+  background-image: linear-gradient(#3e35f3,#6875f5,#e74694);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+}
+
+
+
 
 .navbar-body{
   background-color:#f6f5fe ;
