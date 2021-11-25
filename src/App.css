@@ -495,8 +495,41 @@ a:hover{
   display: flex;
 }
 .home-com-6-text{
-  width: 41.66%;
+  width: 40.66%;
+  padding:4rem 2rem;
 }
+.home-com-6-text{
+  color:white;
+}
+.home-com-6-text p{
+  line-height: 1.75;
+  font-weight: 400;
+}
+.home-com-6-text h2{
+  font-size: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+.home-com-6-text button{
+    border:none;
+    display: block;
+    padding:0.75rem 1rem;
+    border-radius: 9999px;
+    margin-top: 1.5rem;
+  font-weight: 500;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%) ;
+
+}
+.home-com-6-text button:nth-last-child(2){
+  color:#f0a;
+  background-color: var(--offWhite);
+  font-size: 1rem;
+}
+.home-com-6-text button:last-child{
+  background-color: #f0a;
+  color:white;  
+  font-size: 0.875rem;
+}
+
 .home-com-6-img{
   width: 58.33%;
   /* background-image: 'https://res.cloudinary.com/heywith/image/upload/q_100/v1608444869/assets/profiles.png'; */
@@ -509,6 +542,10 @@ a:hover{
   -ms-transform     :  rotate(3deg) scale(1.2);
   transform         :  rotate(3deg) scale(1.2);
 }
+
+
+
+
 
 
 
@@ -553,6 +590,12 @@ a:hover{
   color:#3e35f3;
 }
 
+
+
+
+
+
+
 @media screen and (max-width:1024px){
   .home-com-1{
     flex-direction: column;
@@ -596,9 +639,23 @@ a:hover{
 .home-com-5{
   padding:3rem 3rem;
 }
+.home-com-6{
+  margin-left: 4rem;
+  margin-right: 4 rem;
+}
+.home-com-6-text h2{
+  font-size: 1.875rem;
+}
 }
 
 
+
+
+@media (max-width:768px){
+.home-com-6-img{
+  height: 16rem;
+}
+}
 
 
 
@@ -662,7 +719,14 @@ a:hover{
   width:45%;
 }
 .home-com-6{
+  flex-direction: column;
   margin-left: 3rem;
   margin-right: 3rem;
+}
+.home-com-6-text{
+  width: 100%;
+}
+.home-com-6-img{
+  width: 100%;
 }
 }
