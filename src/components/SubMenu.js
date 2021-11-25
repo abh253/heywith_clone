@@ -12,15 +12,29 @@ const SubMenu = () => {
         <div className={show?"submenu show":"submenu"}>
             <FaBars style={{fontSize:'1.5rem'}} onClick={()=>setShow(!show)}/>
             <ul className=''>
+            <Link to='/'>
                 <li><a href="#">Sign Up</a></li>
-                <li style={{borderBottom:'1px solid #d2d6dc'}}><a href="/login">Login</a></li>
+            </Link>
+            <Link to='/login'>
+                <li style={{borderBottom:'1px solid #d2d6dc'}}><a href='#'>Login</a></li>
+            </Link>
                 
-                
+            <Link to='/'>    
                 <li><a href="#">FAQ</a></li>
+            </Link>
+            <Link to='/'>
                 <li><a href="#">Live Chat</a></li>
+            </Link>
+
+            <Link to='/'>
                 <li style={{borderBottom:'1px solid #d2d6dc'}}><a href="#">Support</a></li>
+            </Link>
+                <Link to='/'>
                 <li><a href="#">Career</a></li>
+                </Link>
+                <Link to='/'>
                 <li><a href="#">About</a></li>
+                </Link>
             </ul>
             
         </div>
