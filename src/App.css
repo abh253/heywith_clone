@@ -71,6 +71,9 @@ a:hover{
 .text-center{
   text-align: center;
 }
+.block{
+  display: block;
+}
 .nav-center{
   
   display: flex;
@@ -544,11 +547,6 @@ a:hover{
 }
 
 
-
-
-
-
-
 .navbar-body{
   background-color:#f6f5fe ;
   padding: 0 7rem;
@@ -590,9 +588,71 @@ a:hover{
   color:#3e35f3;
 }
 
+/*login page*/
 
+.login{
+  padding-top: 1.5rem;
+  background-color: #f6f5fe;
+  width: center;
+  text-align: center;    
+  padding-bottom: 5rem;
+}
+.login h1,.login h2{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.login h2{
+  color: #9fa6b2;
+  font-weight: 100;
+}
+.login-center{
+    text-align: left;
+    vertical-align: center;
+    padding:2rem 2.5rem;
+    border-radius:0.5rem;
+    width: 43vw;
+    background-color: white;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    margin:auto;
+    
+}
+.login-center form{
+  margin-top: 1.5rem;
+}
+.login-center input{
+  margin-top: 1rem;
+}
+.login-center div{
+  margin-bottom: 1.5rem;
+}
+.input-login-style{
+  width: 100%;
+  border:none;
+  padding:0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-bottom: 2px solid #9fa6b2;
+}
+.input-login-style:focus{
+  outline: none;
+  border-color: #180de7;
+}
 
-
+.login-center button{
+  width: 100%;
+  border:none;
+  border-radius: 9999px;
+  padding:1rem 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color:white;
+  background-color: #3e35f3;
+  margin-bottom: 1.5rem;
+  transition: all 0.1s linear;
+}
+.login-center button:hover{
+  background-color: #150af0;
+}
 
 
 
@@ -654,6 +714,9 @@ a:hover{
 @media (max-width:768px){
 .home-com-6-img{
   height: 16rem;
+}
+.login-center{
+  width: 70vw;
 }
 }
 
@@ -728,5 +791,8 @@ a:hover{
 }
 .home-com-6-img{
   width: 100%;
+}
+.login-center{
+  width: 80vw;
 }
 }

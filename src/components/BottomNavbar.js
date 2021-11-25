@@ -2,6 +2,7 @@ import React from 'react'
 import  mainData from '../data/bottom_navbar'
 import Heywith from '../data/logo/Heywith';
 import {FaTwitter,FaInstagram,FaFacebook} from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 
 const BottomNavbar = () => {
     // console.log(mainData);
@@ -10,7 +11,7 @@ const BottomNavbar = () => {
         <div className='navbar-body'>
         <nav className='bottom-navbar'>
           <div>
-                <Heywith/>
+                <Link to='/'><Heywith/></Link>
                 <div style={{marginTop:'1rem'}}>
                 <FaTwitter style={{color:"skyblue",fontSize:'1.5rem'}}/>
                 <FaInstagram style={{color:'rgb(161, 79, 216)' ,fontSize:'1.5rem' ,marginLeft:'1rem'}} />
