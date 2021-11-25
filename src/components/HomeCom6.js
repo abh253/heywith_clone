@@ -14,5 +14,5 @@ const HomeCom6 = () => {
         </section>
     )
 }
-
+ 
 export default HomeCom6
