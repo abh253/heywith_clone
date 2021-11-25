@@ -486,12 +486,29 @@ a:hover{
 
 .home-com-6{
   margin:7rem;
-  height: 40vw;
+  height: auto;
   background-image: linear-gradient(#3e35f3,#6875f5,#e74694);
   border-radius: 0.5rem;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+  overflow: hidden;
+  /* z-index: 0; */
+  display: flex;
 }
-
+.home-com-6-text{
+  width: 41.66%;
+}
+.home-com-6-img{
+  width: 58.33%;
+  /* background-image: 'https://res.cloudinary.com/heywith/image/upload/q_100/v1608444869/assets/profiles.png'; */
+  background-image: url('https://res.cloudinary.com/heywith/image/upload/q_100/v1608444869/assets/profiles.png');
+  
+  /* z-index: 1; */
+  background-position: center;
+  background-size: cover;
+  -webkit-transform :  rotate(3deg) scale(1.2); 
+  -ms-transform     :  rotate(3deg) scale(1.2);
+  transform         :  rotate(3deg) scale(1.2);
+}
 
 
 
@@ -580,6 +597,11 @@ a:hover{
   padding:3rem 3rem;
 }
 }
+
+
+
+
+
 @media (max-width:635px){
   .nav-center{
     padding-left:1.5rem;
@@ -638,5 +660,9 @@ a:hover{
 }
 .card{
   width:45%;
+}
+.home-com-6{
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 }
