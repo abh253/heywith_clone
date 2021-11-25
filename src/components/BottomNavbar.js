@@ -4,7 +4,7 @@ import Heywith from '../data/logo/Heywith';
 import {FaTwitter,FaInstagram,FaFacebook} from 'react-icons/fa'
 
 const BottomNavbar = () => {
-    console.log(mainData);
+    // console.log(mainData);
     const {data}=mainData;
     return (
         <div className='navbar-body'>
