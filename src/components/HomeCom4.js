@@ -5,11 +5,10 @@ import CalculateEarning from './CalculateEarning'
 import HomeCom4_text from './HomeCom4_text'
 
 const HomeCom4 = () => {
-    const [open,setOpen]=React.useState(true);
+    const [open,setOpen]=React.useState(false);
     return (
         <section className='home-com-4'>
-            {!open || <CalculateEarning setOpen={setOpen}/>}
-            {open || <HomeCom4_text setOpen={setOpen}/>}
+            {open?<CalculateEarning setOpen={setOpen}/>:<HomeCom4_text setOpen={setOpen}/>}
 
 
             <article className='home-com-4-img'>
